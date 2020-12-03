@@ -1,59 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Information</title>
-</head>
-<body>
+  </head>
+  <body>
     <h3>Contact Information</h3>
     <em>
-        <dl>
-            <dt>Jon Kleinberg</dt>
-            <dt>Computing and Information Science</dt>
-            <dt>Gates Hall</dt>
-            <dt>Cornell University</dt>
-            <dt>Ithaca, NY 14853</dt>
-            <dt>(607)255-9197</dt>
-        </dl>
+      <dl>
+        <dt>Jon Kleinberg</dt>
+        <dt>Computing and Information Science</dt>
+        <dt>Gates Hall</dt>
+        <dt>Cornell University</dt>
+        <dt>Ithaca, NY 14853</dt>
+        <dt>(607)255-9197</dt>
+      </dl>
     </em>
     <tt><h3>kleinberg@cornell.edu</h3></tt>
 
-    <form action="">
+    <h4>
+      If you have any query please leave your message and contact details below
+      so that I can contact you.
+    </h4>
 
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <label for="">Name:</label>
-                </td>
-                <td>
-                    <input type="text" name="" id="">
-                <input type="button" value="Submit">
-
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="">Email id:</label>
-                </td>
-                <td>
-                    <input type="email" name="" id="">
-                <input type="button" value="Submit">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="">Password:</label>
-                </td>
-                <td>
-                    <input type="password" name="" id="">
-                <input type="button" value="Submit">
-                </td>
-            </tr>
-        </table>
-        <label for="">Do you want to subscribe to our mailing list?</label>
-            <input type="checkbox" name="" id="">
-            <input type="button" value="Submit">
+    <form
+      action="mailto:aninp2020@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="">Your Name:</label>
+      <input type="text" name="yourname-" id="" />
+      <br />
+      <label for="">Your Email:</label>
+      <input type="email" name="yourid-" id="" />
+      <br />
+      <label for="">Your Message:</label>
+      <br />
+      <textarea name="yourmessage-" id="" cols="30" rows="10"></textarea>
+      <br />
+      <input type="button" value="Submit" />
     </form>
-</body>
+  </body>
 </html>
