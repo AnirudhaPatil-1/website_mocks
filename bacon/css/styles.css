@@ -13,14 +13,32 @@ hr {
   color: silver;
   width: 5%;
 }
-/* img {
+img {
   background-color: red;
-} */
+}
+h1:hover {
+  color: white;
+}
+img:hover {
+  background-color: white;
+}
 
 /* ******************CLASS SELECTOR************ */
 .bacon {
   background-color: lime;
 }
 .vegetable {
-  background-color: red;
+  background-color: orange;
+}
+.circular {
+  border-radius: 25%;
+}
+
+/************** ID SELECTOR***********/
+
+#food {
+  background-color: pink;
+}
+#heading {
+  color: yellow;
 }

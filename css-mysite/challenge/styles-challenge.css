@@ -1,0 +1,69 @@
+/********challenge 1**METHOD 1 **********/
+
+/* .red {
+  position: relative;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  left: 300px;
+}
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+} */
+
+/*********METHOD 2 **********/
+/* .red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+} */
+/*** CHALLENGE 2 ABSOLUTE POSITIONING **/
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
